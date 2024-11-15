@@ -18,3 +18,4 @@ if nota > 5 and edad>18:
         print("POSIBLE")
 else: 
     print("NO ACEPTADA")
+    
