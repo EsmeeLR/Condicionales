@@ -25,6 +25,8 @@ if 1<=res_obt<=6:
         print("El número en la cara opuesta del resultado obtenido es:", cadena)
     elif res_obt==6:
         cadena="uno"
-        print("El número en la cara opuesta del resultado obtenido es:", cadena)
+        print("El número en la cara opuesta del resultado obtenido es:", cadena  ", por lo tanto es un numro impar")
 else: 
-    print("ERROR número incorrecto")
+    print("ERROR número incorrecto")    
+    
+    
