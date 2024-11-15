@@ -17,9 +17,9 @@ if b > 0:
 #Verificar que el exponente no sea 0
 elif b == 0:
     c=1
-    print("El resultado de elevar el número ingresdo a la 0 potencia siempre es: ",c)
+    print("El resultado de elevar el número ingresdo a la 0 potencia siempre es:",c)
 
 #Si el exponente es negativo, el resultado será 1/potencia con el exponente positivo
 else:
     c=1/2**(-1*b) 
-    print("El resultado de elevar a por el exponente negativo dado es: ", c)
+    print("El resultado de elevar a por el exponente negativo dado es:", c)
