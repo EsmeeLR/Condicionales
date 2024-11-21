@@ -21,3 +21,5 @@ if (J1.lower() == "piedra" or J1.lower() == "papel" or J1.lower() == "tijera") \
         print("Gana el jugador 2")
 else: 
     print("Opción INCORRECTA")
+
+print("Fin")
