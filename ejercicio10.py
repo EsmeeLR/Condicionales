@@ -32,3 +32,4 @@ elif 30<=alumnos<=49:
 elif alumnos<30:
     c=4000
     print("El costo de la renta del autobús es de",c,"euros")
+    print("Fin del programa")
