@@ -31,3 +31,4 @@ else: # turno de tarde
     impuesto = c * 0.10
 costo_total = c + impuesto
 print("El costo total por la llamada realizada es de",costo_total,"euros")
+print("Fin del programa")
