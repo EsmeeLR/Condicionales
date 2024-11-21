@@ -6,12 +6,22 @@ num1 = int(input("Primer número: "))
 num2 = int(input("Segundo número: "))
 num3 = int(input("Tercer número: "))
 
-numeros = [num1, num2, num3]
+# Comparar y ordenar los números usando condicionales
+if num1 >= num2 and num1 >= num3:
+    if num2 >= num3:
+        ordenados = (num1, num2, num3)
+    else:
+        ordenados = (num1, num3, num2)
+elif num2 >= num1 and num2 >= num3:
+    if num1 >= num3:
+        ordenados = (num2, num1, num3)
+    else:
+        ordenados = (num2, num3, num1)
+else:
+    if num1 >= num2:
+        ordenados = (num3, num1, num2)
+    else:
+        ordenados = (num3, num2, num1)
 
-# Ordenar la lista de mayor a menor
-numeros.sort(reverse=True)
-
-# Imprimir los números ordenados
-print("Números de mayor a menor:")
-for numero in numeros:
-    print(numero)
+# Mostrar los números ordenados de mayor a menor
+print("Los números ordenados de mayor a menor quedan de la siguiente manera:", ordenados)
